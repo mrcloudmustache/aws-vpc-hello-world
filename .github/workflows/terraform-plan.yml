@@ -19,8 +19,6 @@
         # paths:
         #   - "<<INPUT REQUIRED>>" ## Example: 'terraform/**.tf'
     
-    workflow_dispatch:
-    
     ## Add shared Environment Variables across jobs here ##
     env:
       TF_CLOUD_ORGANIZATION: ${{ secrets.TF_CLOUD_ORG }} ## Name of your existing HCP Terraform Organization. RECOMMENDED: use repository variables. ex. "${{ vars.TF_CLOUD_ORGANIZATION }}"
