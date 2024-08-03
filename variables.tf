@@ -8,7 +8,7 @@ variable "cidr_block" {
 variable "vpc_name" {
     description = "The name of the vpc"
     type = string
-    default = "aws-vpc-hello-world-${var.environment}"
+    default = "aws-vpc-hello-world"
   
 }
 
