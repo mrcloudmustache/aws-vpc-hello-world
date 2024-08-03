@@ -15,7 +15,7 @@ variable "vpc_name" {
 variable "environment" {
     description = "The name of the environment"
     type = string
-    default = "prod"
+    default = "dev"
 
     validation {
       condition = var.environment == "prod" || var.environment == "dev"
